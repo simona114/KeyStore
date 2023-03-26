@@ -41,4 +41,12 @@
         app:layout_constraintStart_toEndOf="@+id/btnEncrypt"
         app:layout_constraintTop_toBottomOf="@+id/etText" />
 
+    <TextView
+        android:id="@+id/tvDecryptedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnDecrypt"
+        app:layout_constraintStart_toStartOf="@+id/btnEncrypt"
+        app:layout_constraintTop_toBottomOf="@+id/btnEncrypt" />
 </androidx.constraintlayout.widget.ConstraintLayout>
